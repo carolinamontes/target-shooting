@@ -1,1 +1,4 @@
-// Aquí van los getElementById y los querySelectorAll que pondrías al principio.
+const targetElement = document.getElementById('target');
+const pointsElement = document.getElementById('points');
+
+export { targetElement, pointsElement };

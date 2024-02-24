@@ -1,5 +1,4 @@
-const targetElement = document.getElementById('target');
-const pointsElement = document.getElementById('points');
+import { targetElement } from './dom';
 
 let points = 0;
 
@@ -12,8 +11,4 @@ function lookForTarget() {
 	console.log(newPositionLeft);
 }
 
-targetElement.addEventListener('click', () => {
-	points++;
-	pointsElement.textContent = points;
-	lookForTarget();
-});
+export { lookForTarget };
