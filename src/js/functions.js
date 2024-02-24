@@ -1,7 +1,5 @@
 import { targetElement } from './dom';
 
-let points = 0;
-
 function lookForTarget() {
 	const newPositionTop = Math.floor(Math.random() * (500 - 100));
 	const newPositionLeft = Math.floor(Math.random() * (500 - 150));
